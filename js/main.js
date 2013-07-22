@@ -14,12 +14,19 @@ var Site = {
     init: function() {
         $('html').removeClass('no-js');
         Site.feature1();
+        Site.feature2();
     },
     
     /**
-     * Site featured
+     * Site feature
      */
     feature1: function() {
+    },
+
+    /**
+     * Site feature 2
+     */
+    feature2: function() {
     }
 
 }

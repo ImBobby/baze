@@ -10,13 +10,15 @@
     2 Font-face
     3 Basic styles
     4 Common styles
+        4.1 Common: Buttons
     5 Header
-    6 Content
-    6.1 Page: Home
+    6 Page Styles
+        6.1 Page: Home
     7 Footer
     8 Non Semantics helper class
     9 Print
     10 Plugins
+        10.1 Plugin: Plugin name 
 
 *******************************************************************************/
 
@@ -24,11 +26,13 @@
 /* 1 Resets
 ------------------------------------------------------------------------------*/
 
-*{
+/* Uncomment if no longer support older browsers 
+* {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
 }
+*/
 
 html,
 button,
@@ -104,6 +108,7 @@ a {
     text-decoration: none;
 }
 
+a:focus,
 a:hover { 
     color: #06e; 
 }
@@ -114,13 +119,7 @@ button,
 select, 
 textarea {
     font-family: Arial, sans-serif;
-        font-size: 13px;
-}
-
-ul, ol {
-    list-style: none;
-    margin: 0;
-    padding: 0;
+    font-size: 16px;
 }
 
 fieldset {
@@ -136,31 +135,32 @@ table {
 
 /* 4 Common styles
 ------------------------------------------------------------------------------*/
-
+/* 4.1 Common: Buttons
+------------------------------------------------------------------------------*/
 
 
 /* 5 Header
 ------------------------------------------------------------------------------*/
 
 
-
-/* 6 Content
+/* 6 Page styles
 ------------------------------------------------------------------------------*/
-
-
-
 /* 6.1 Page: Home
 ------------------------------------------------------------------------------*/
-
 
 
 /* 7 Footer
 ------------------------------------------------------------------------------*/
 
 
-
 /* 8 Non Semantics helper class
 ------------------------------------------------------------------------------*/
+
+.list-nostyle {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
 
 .ir {
     background-color: transparent;
@@ -293,6 +293,8 @@ table {
 
 
 /* 10 Plugins
+------------------------------------------------------------------------------*/
+/* 10.1 Plugin: Plugin Name
 ------------------------------------------------------------------------------*/
 
 
