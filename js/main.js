@@ -8,25 +8,17 @@
 
 var Site = {
 
-    /**
-     * Init Function
-     */
     init: function() {
-        $('html').removeClass('no-js');
-        Site.feature1();
-        Site.feature2();
-    },
-    
-    /**
-     * Site feature
-     */
-    feature1: function() {
+        Site.fastClick();
+        Site.enableActiveStateMobile();
     },
 
-    /**
-     * Site feature 2
-     */
-    feature2: function() {
+    fastClick: function() {
+    	FastClick.attach(document.body);
+    },
+
+    enableActiveStateMobile: function(){
+        document.addEventListener('touchstart', function(){}, true);
     }
 
 }

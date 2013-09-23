@@ -1,0 +1,82 @@
+/*******************************************************************************
+
+    Title :  
+    Date  :  September 2013
+    Author:  Suitmedia (http://www.suitmedia.com)
+
+********************************************************************************
+
+	1. Font-face
+	2. Basic styles
+	3. Header
+	4. Page styles
+	5. Footer
+
+*******************************************************************************/
+
+@import "compass";
+
+@import "mixin/_mixin";
+// for IE8>
+// @import "partial/_normalize";
+@import "partial/_normalize-legacy";
+@import "partial/_variables";
+@import "partial/_resets";
+@import "partial/_helpers";
+@import "partial/_print";
+@import "partial/_plugin";
+
+@import "modules/_table";
+
+/* 1 Font-face
+------------------------------------------------------------------------------*/
+
+
+
+/* 2 Basic styles
+------------------------------------------------------------------------------*/
+
+*{
+	@include box-sizing(border-box);
+}
+
+html{
+	font-size: $base-font-size;
+}
+
+body{
+	color: $black90;
+	font-family: $base-font-family;
+	line-height: $base-line-height;
+}
+
+a{
+	color: $link;
+	text-decoration: none;
+
+	&:hover{
+		color: $link-hover;
+	}
+}
+
+label, 
+input, 
+button, 
+select, 
+textarea {
+    font-family: $base-font-family;
+    // modern browser
+    // font-family: inherit;
+}
+
+
+/* 3 Header
+------------------------------------------------------------------------------*/
+
+
+/* 4 Page styles
+------------------------------------------------------------------------------*/
+
+
+/* 5 Footer
+------------------------------------------------------------------------------*/

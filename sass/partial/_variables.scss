@@ -1,0 +1,71 @@
+/* Typography
+------------------------------------------------------------------------------*/
+
+$base-font-size   	: 16px;
+$base-line-height 	: 1.6em;
+
+$base-font-family   : 'helvetica neue', 'helvetica', sans-serif;
+
+/* Colors
+------------------------------------------------------------------------------*/
+
+$black 	 			: #222;
+$black90 			: lighten($black, 10%);
+$black80 			: lighten($black, 20%);
+$black70 			: lighten($black, 30%);
+$black60 			: lighten($black, 40%);
+$black50 			: lighten($black, 50%);
+$black40 			: lighten($black, 60%);
+$black30 			: lighten($black, 70%);
+$black20 			: lighten($black, 80%);
+$black10 			: lighten($black, 90%);
+$white 	 			: #f8fbea;
+$red 	 			: #d9534f;
+$dark-blue    		: #428bca;
+$green 	 			: #5cb85c;
+$light-blue 		: #5bc0de;
+$orange 			: #f0ad4e;
+
+$link 				: $dark-blue;
+$link-hover 		: lighten($link, 10%);
+
+$selection-bg 	 	: #b3d4fc;
+$selection-color 	: $black;
+
+/* Media queries
+------------------------------------------------------------------------------*/
+
+$phone 				: "screen and (min-width: 20em)";
+$phone-portrait 	: "screen and (min-width: 20em) and (orientation: portrait)";
+$phone-landscape 	: "screen and (min-width: 20em) and (orientation: landscape)";
+
+$phablet 			: "screen and (min-width: 30em)";
+$phablet-portrait   : "screen and (min-width: 30em) and (orientation: portrait)";
+$phablet-landscape  : "screen and (min-width: 30em) and (orientation: landscape)";
+
+$tablet 			: "screen and (min-width: 48em)";
+$tablet-portrait 	: "screen and (min-width: 48em) and (orientation: portrait)";
+$tablet-landscape 	: "screen and (min-width: 48em) and (orientation: landscape)";
+
+$desktop 			: "screen and (min-width: 60em)";
+
+
+/* Table
+------------------------------------------------------------------------------*/
+
+$table-background 			: lighten($black20, 7%);
+$table-border 				: #c6c6c6;
+$table-zebra 				: lighten($black20, 3%);
+$table-thead-background 	: $black20;
+
+$table-cell-padding 		: .4em;
+$table-cell-padding-compact : .2em .4em;
+
+
+
+
+
+
+
+
+
