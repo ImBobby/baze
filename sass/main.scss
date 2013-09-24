@@ -39,8 +39,6 @@
 
 html{
 	font-size: $base-font-size;
-
-	@include transition(all 1s ease);
 }
 
 body{
