@@ -14,9 +14,8 @@
 
 *******************************************************************************/
 
-@import "compass";
-
 @import "mixin/_mixin";
+
 @import "partial/_normalize-legacy";
 @import "partial/_variables";
 @import "partial/_resets";
@@ -35,11 +34,13 @@
 ------------------------------------------------------------------------------*/
 
 *{
-	@include box-sizing(border-box);
+	@include box-sizing(content-box);
 }
 
 html{
 	font-size: $base-font-size;
+
+	@include transition(all 1s ease);
 }
 
 body{
@@ -52,7 +53,8 @@ a{
 	color: $link;
 	text-decoration: none;
 
-	&:hover{
+	&:hover,
+	&:focus{
 		color: $link-hover;
 	}
 }
