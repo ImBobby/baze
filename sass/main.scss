@@ -14,16 +14,15 @@
 
 *******************************************************************************/
 
-@import "mixin/_mixin";
-
 @import "partial/_normalize-legacy";
 @import "partial/_variables";
 @import "partial/_resets";
 @import "partial/_helpers";
 @import "partial/_print";
-@import "partial/_plugin";
 
-@import "modules/_table";
+@import "mixin/_mixin";
+@import "modules/_modules";
+@import "plugin/_plugin";
 
 /* 1 Font-face
 ------------------------------------------------------------------------------*/
