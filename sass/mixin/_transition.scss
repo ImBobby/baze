@@ -1,4 +1,4 @@
-@mixin transition($arg){
+@mixin transition($arg...){
 	-webkit-transition: $arg;
 	-moz-transition: $arg;
 	-ms-transition: $arg;

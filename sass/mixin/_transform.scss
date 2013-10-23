@@ -1,4 +1,4 @@
-@mixin transform($arg){
+@mixin transform($arg...){
 	-webkit-transform: $arg;
 	-moz-transform: $arg;
 	-ms-transform: $arg;
