@@ -316,6 +316,25 @@ table {
   color: #222222;
   text-shadow: none; }
 
+/** 
+ * Fix windows phone viewport bug
+ * http://timkadlec.com/2013/01/windows-phone-8-and-device-width 
+ */
+@-webkit-viewport {
+  width: device-width; }
+
+@-moz-viewport {
+  width: device-width; }
+
+@-ms-viewport {
+  width: device-width; }
+
+@-o-viewport {
+  width: device-width; }
+
+@viewport {
+  width: device-width; }
+
 .list-nostyle {
   list-style: none;
   margin: 0;
